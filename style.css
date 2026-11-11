@@ -1,150 +1,66 @@
 
-/* =========================
-   GENERAL SETTINGS
-========================= */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* The whole page */
 
 body {
     background-color: #171719;
     color: #D4C7B8;
-    font-family: Georgia, serif;
-    line-height: 1.8;
-    padding: 20px;
+    font-family: Georgia;
+    text-align: center;
 }
 
-/* =========================
-   HEADER
-========================= */
+/* The top of the page */
 
 header {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #211c1e;
-    border-bottom: 1px solid #44383A;
+    background-color: #292326;
+    padding: 30px;
 }
 
-header h1 {
+h1 {
     color: #EEE9E2;
-    font-size: 42px;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
 }
 
-header p {
-    color: #A99B94;
-    font-style: italic;
-}
-
-/* =========================
-   MAIN CONTENT
-========================= */
+/* The main content */
 
 main {
-    max-width: 850px;
-    margin: 50px auto;
+    margin: 30px;
 }
 
-/* =========================
-   SECTIONS
-========================= */
+/* Each section */
 
 section {
-    background-color: #211e20;
-    margin-bottom: 30px;
-    padding: 30px;
-    border: 1px solid #393033;
-    border-radius: 8px;
-    transition: 0.3s ease;
+    background-color: #292326;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #44383A;
 }
 
-section:hover {
-    border-color: #8F233F;
-    transform: translateY(-3px);
-}
+/* Section titles */
 
-section h2 {
+h2 {
     color: #A83B55;
-    font-size: 24px;
-    margin-bottom: 15px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #44383A;
 }
 
-section p {
+/* Paragraphs */
+
+p {
     color: #D4C7B8;
-    margin-bottom: 15px;
 }
 
-/* =========================
-   LISTS
-========================= */
+/* Lists */
 
 ul {
-    padding-left: 25px;
+    display: inline-block;
+    text-align: left;
 }
 
 li {
-    color: #C5B7AC;
-    margin-bottom: 8px;
+    margin: 10px;
 }
 
-li::marker {
-    color: #8F233F;
-}
-
-/* =========================
-   FOOTER
-========================= */
+/* The bottom of the page */
 
 footer {
-    text-align: center;
-    padding: 30px;
+    background-color: #292326;
+    padding: 20px;
     color: #A99B94;
-    border-top: 1px solid #393033;
-    font-style: italic;
-}
-
-/* =========================
-   HOVER EFFECTS
-========================= */
-
-header h1 {
-    transition: 0.3s ease;
-}
-
-header h1:hover {
-    color: #A83B55;
-}
-
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
-
-@media (max-width: 600px) {
-
-    body {
-        padding: 10px;
-    }
-
-    header {
-        padding: 50px 15px;
-    }
-
-    header h1 {
-        font-size: 30px;
-    }
-
-    section {
-        padding: 20px;
-    }
-
-    section h2 {
-        font-size: 21px;
-    }
-
 }
